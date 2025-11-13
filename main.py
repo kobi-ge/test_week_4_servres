@@ -11,6 +11,9 @@ class CaesarBody(BaseModel):
     offset: int
     mode: str
 
+class FenceBody(BaseModel):
+    text: str
+
 # @app.get("/test")
 # def test():
 #     return {"msg": "hi from test"}
@@ -34,5 +37,6 @@ def fence_encrypt(text: str):
     return {"encrypted_text": encrypted}
 
 @app.post("/fence/decrypt")
-def fence_decrypt():
-    return {"decrypted":"..."}
+def fence_decrypt(text:FenceBody):
+    decrypted = fence.fence_decrypt(text.text)
+    return {"decrypted": decrypted}
