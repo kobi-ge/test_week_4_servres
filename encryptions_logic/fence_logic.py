@@ -10,6 +10,7 @@ def fence_encrypt(text: str):
         else:
             odd_idx += letter
     encrypted = even_idx + odd_idx
+    print("encrypted the given text")
     return encrypted
 
 def fence_decrypt(text: str):
@@ -25,4 +26,5 @@ def fence_decrypt(text: str):
         full_text += text2[idx]
     if length % 2:
         full_text += text1[-1]
+    print("divided the text to two parts and sorted them together")
     return full_text

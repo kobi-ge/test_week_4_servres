@@ -11,4 +11,5 @@ def caesar_encrypt(mode, offset, data):
             encrypt_value = (letter_value - offset) % 26
         encrypt_letter = chr(encrypt_value + 97)
         encrypted_data += encrypt_letter
+        print(f"{mode} the given text")
     return {mode: encrypted_data}
