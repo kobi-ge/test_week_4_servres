@@ -1,0 +1,62 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="annotated-types" />
+          <option value="anyio" />
+          <option value="black" />
+          <option value="blinker" />
+          <option value="certifi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="colorama" />
+          <option value="contourpy" />
+          <option value="cycler" />
+          <option value="distlib" />
+          <option value="distro" />
+          <option value="filelock" />
+          <option value="Flask" />
+          <option value="Flask-SQLAlchemy" />
+          <option value="fonttools" />
+          <option value="greenlet" />
+          <option value="h11" />
+          <option value="httpcore" />
+          <option value="httpx" />
+          <option value="idna" />
+          <option value="itsdangerous" />
+          <option value="Jinja2" />
+          <option value="jiter" />
+          <option value="keyboard" />
+          <option value="kiwisolver" />
+          <option value="MarkupSafe" />
+          <option value="matplotlib" />
+          <option value="mypy-extensions" />
+          <option value="numpy" />
+          <option value="openai" />
+          <option value="packaging" />
+          <option value="pathspec" />
+          <option value="pillow" />
+          <option value="platformdirs" />
+          <option value="pydantic" />
+          <option value="pydantic_core" />
+          <option value="pygame" />
+          <option value="pynput" />
+          <option value="pyparsing" />
+          <option value="python-dateutil" />
+          <option value="requests" />
+          <option value="six" />
+          <option value="sniffio" />
+          <option value="SQLAlchemy" />
+          <option value="tqdm" />
+          <option value="typing-inspection" />
+          <option value="typing_extensions" />
+          <option value="urllib3" />
+          <option value="virtualenv" />
+          <option value="Werkzeug" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
