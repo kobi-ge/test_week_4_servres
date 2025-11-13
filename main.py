@@ -1,4 +1,5 @@
 from encryptions_logic import caesar_logic as caesar
+from encryptions_logic import fence_logic as fence
 from fastapi import FastAPI, HTTPException
 import uvicorn
 from pydantic import BaseModel
@@ -28,8 +29,9 @@ def Caesar_cipher(body: CaesarBody):
         return {"invalid mode"}
 
 @app.get("/fence/encrypt")
-def fence_encrypt():
-    return {"encrypted_text": "..."}
+def fence_encrypt(text: str):
+    encrypted = fence.fence_encrypt(text)
+    return {"encrypted_text": encrypted}
 
 @app.post("/fence/decrypt")
 def fence_decrypt():
